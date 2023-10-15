@@ -49,13 +49,13 @@ h1 {
 
 .countdown-timer {
   font-size: 40px;
-  color: #ffffff;
+  color: #136318;
   margin-top: 5px;
   margin-bottom: 16px;
 }
 
 .timer h1 {
-  color: #0d8b16;
+  color: #136318;
   font-size: 24px;
 }
 
@@ -75,7 +75,7 @@ h1 {
 }
 
 .settings h2 {
-  color: #0d8b16;
+  color: #136318;
   font-size: 24px;
   margin-bottom: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -83,7 +83,7 @@ h1 {
 }
 
 .settings label {
-  color: #0d8b16;
+  color: #136318;
   display: block;
   font-size: 18px;
   margin: 15px 0;
@@ -95,7 +95,7 @@ h1 {
   width: 100%;
   padding: 10px;
   font-size: 18px;
-  border: 2px solid #0d8b16;
+  border: 2px solid #136318;
   border-radius: 5px;
   margin: 5px 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
