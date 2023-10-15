@@ -24,14 +24,8 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Create Docs Directory
-        run: mkdir docs
-
-      - name: Copy Build Files
-        run: cp -r build/* docs/
-
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.POMODORO_TOKEN }}
-          publish_dir: ./docs
+          publish_dir: ./build
