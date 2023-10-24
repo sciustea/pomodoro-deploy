@@ -2,14 +2,18 @@
 
 import React, { useState } from 'react';
 
+// Define the expected properties for the Settings component.
 type Props = {
-  onSettingsChange: (workDuration: number, breakDuration: number) => void;
+  onSettingsChange: (workDuration: number, breakDuration: number) => void; // Callback function to handle settings changes.
 };
 
+// Define the Settings component as a functional component.
 const Settings: React.FC<Props> = ({ onSettingsChange }) => {
+  // Initialize state variables for work and break durations.
   const [workDuration, setWorkDuration] = useState(25);
   const [breakDuration, setBreakDuration] = useState(5);
 
+  // Function to save settings and invoke the callback provided via props.
   const handleSaveSettings = () => {
     onSettingsChange(workDuration, breakDuration);
   };
