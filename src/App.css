@@ -65,13 +65,12 @@ h1 {
 }
 
 .settings {
-  max-width: 400px;
-  margin: 20px auto;
-  padding: 20px;
-  border: 1px solid #ddd;
   border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 400px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  background-color: #27733250;
+  background-color: #ffffff68;
 }
 
 .settings h2 {
