@@ -7,6 +7,10 @@ body {
   color: #136318;
   text-align: center;
   padding: 20px;
+  font-weight: bolder;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  /* -webkit-text-stroke: 1px #136318b0;
+  text-stroke: 1px #136318b0; */
 }
 
 body.work-background {
@@ -45,6 +49,7 @@ h1 {
   max-width: 400px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   background-color: #ffffff68;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 .countdown-timer {
